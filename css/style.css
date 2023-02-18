@@ -114,6 +114,9 @@ button {
   letter-spacing: 3px;
 }
 button a {
+  display: block;
+  height: 100%;
+  width: 100%;
   color: #fff;
   font-size: 17px;
   font-weight: 600;
