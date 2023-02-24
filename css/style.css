@@ -192,7 +192,6 @@ button:hover a {
 .header {
   border: #fff solid 2px;
   top: 0px;
-  position: -webkit-sticky;
   position: sticky;
   background-color: rgb(206, 168, 122);
   z-index: 7;
@@ -295,47 +294,7 @@ button:hover a {
 }
 
 .help__row {
-  display: flex;
   padding: 40px 40px 20px 40px;
-}
-.help__row img {
-  border-radius: 0 50px 0 0;
-  width: 400px;
-}
-.help__img {
-  position: relative;
-  width: 600px;
-  height: 240px;
-}
-.help__img img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 0 50px 0 0;
-  width: 100%;
-  height: 100%;
-  z-index: 5;
-}
-.help__imgback {
-  position: relative;
-  z-index: 4;
-  transform: translate(20px, -20px);
-  width: 100%;
-  height: 100%;
-  border: dashed 2px #fff;
-  border-radius: 0 50px 0 0;
-}
-.help__text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 40px;
-  justify-content: space-between;
-}
-.help__title {
-  font-size: 50px;
-}
-.help__subtitle {
-  font-size: 25px;
 }
 
 .form {

@@ -140,7 +140,6 @@ body {
 .header {
   border: #fff solid 2px;
   top: 0px;
-  position: -webkit-sticky;
   position: sticky;
   background-color: rgb(206, 168, 122);
   z-index: 7;
